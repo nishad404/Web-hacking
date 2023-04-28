@@ -1,0 +1,19 @@
+.Hack{
+    color: brown;
+}
+section{
+     display: flex;
+}
+.link{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.Boys{
+    width: 50%;
+    margin: 20px;
+}
+.Boys img{
+    width: 80%;
+}
