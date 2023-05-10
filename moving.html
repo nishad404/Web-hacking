@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-Hack{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: brown;
+    padding: 10px;
+}
+.grid-Hack > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1{
+    grid-column: 1 /span 3;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CSS Box-Reflect</h1>
+
+<p>Show the reflection below the image:</p>
+
+<p>Item1 will start on column 1, and span 2 columns:</p>
+<div class="grid-Hack">
+<div class="item1">1</div>
+<div class="item2">2</div>
+<div class="item3">3</div>
+<div class="item4">4</div>
+<div class="item5">5</div>
+<div class="item6">6</div>
+<div class="item7">7</div>
+<div class="item8">8</div>
+<div class="item9">9</div>
+<div class="item10">10</div>
+</div>
+
+</body>
+</html>
