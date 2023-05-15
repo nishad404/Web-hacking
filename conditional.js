@@ -26,5 +26,5 @@
         break;
         default:
             console.log("nothing");
-     } ; 
+     } 
 
