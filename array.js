@@ -26,3 +26,7 @@ for(let i=0;i<nisha.length;i++){
 ///pop in js:::
 const mama=["ami","tumi","she"];
 console.log(mama.pop());
+
+//push in js:::
+const fruits = ["Banana","Orange","Apple","Mango"];
+console.log(fruits.push("Kiwi","Lemon"));
