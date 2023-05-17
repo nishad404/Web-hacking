@@ -22,3 +22,7 @@ for(let i=0;i<nisha.length;i++){
  }
 
  scores.forEach(faruk);
+
+///pop in js:::
+const mama=["ami","tumi","she"];
+console.log(mama.pop());
