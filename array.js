@@ -9,12 +9,13 @@ for(let i=0;i<nisha.length;i++){
     console.log(nisha[i]);
     console.log(i);
 }
+//forEach loop :::
  function myfunction(a){
        console.log(a);
  }
  nisha.forEach(myfunction);
 
-
+///forEach loop:::
  let scores = [12, 55, 70];
  function faruk(name,boy,girl){
         console.log(name,boy,girl);
