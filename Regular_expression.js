@@ -1,3 +1,6 @@
+
+//Regular expression is a method where search() and repace() as like grep command in kali linux::
+
 let text = "Visit W3Schools!";
 let n = text.search("W3Schools");
 console.log(n);
