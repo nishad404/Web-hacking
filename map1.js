@@ -1,4 +1,4 @@
-
+//map() is a method where work on array and create a new array::::
 
 const makedouble=[1,2,3,4,5].map(x=>x*5);
 console.log(makedouble);
