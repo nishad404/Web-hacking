@@ -23,5 +23,5 @@ function Person1(firstname1,lastname2){
 
     }
 
-    const per=new Person1('ami','tumi');
+    const per=new Person1('ami','tumi');  ///constructor
     console.log(per);
