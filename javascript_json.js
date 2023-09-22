@@ -1,4 +1,4 @@
-/*let isku={
+let isku={
    method: 'POST',
   body: JSON.stringify({
     title: 'NOman',
@@ -11,9 +11,9 @@
 } 
 fetch('https://jsonplaceholder.typicode.com/posts',isku)
 .then((respone)=>respone.json())
-.then((json)=>console.log(json)); */
+.then((json)=>console.log(json)); 
 
 
-fetch("https://jsonplaceholder.typicode.com/posts/1/comments")
-.then((respone)=>respone.json())
-.then(json=>console.log(json))
+//fetch("https://jsonplaceholder.typicode.com/posts/1/comments")
+//.then((respone)=>respone.json())
+//.then(json=>console.log(json))
